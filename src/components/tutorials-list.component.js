@@ -115,7 +115,7 @@ export default class TutorialsList extends Component {
           </div>
         </div>
         <div className="col-md-6">
-          <h4>Tutorials List</h4>
+          <h4>Lista de Peliculas</h4>
 
           <ul className="list-group">
             {tutorials &&
@@ -143,7 +143,7 @@ export default class TutorialsList extends Component {
         <div className="col-md-6">
           {currentTutorial ? (
             <div>
-              <h4>Tutorial</h4>
+              <h4>Pelicula</h4>
               <div>
                 <label>
                   <strong>Title:</strong>
@@ -173,7 +173,7 @@ export default class TutorialsList extends Component {
           ) : (
             <div>
               <br />
-              <p>Please click on a Tutorial...</p>
+              <p>Please click on a Pelicula...</p>
             </div>
           )}
         </div>
